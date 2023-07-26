@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自訂Google表單發送</title>
+</head>
+
+<body>
+<!-- window.location 是寫表單送出成功後要進到哪一個頁面 -->
+<iframe name="iframe_redirect" id="iframe_redirect" style="display:none;" onload="if(typeof sent_redirect!='undefined'){window.location='https://www.xuedesign.tw/';}"></iframe>
+
+<!-- action 裡的網址，從 google form 的檢視表單，再用開發人員工具，搜尋「formResponse」可以看到 -->
+<!-- <form onsubmit="sent_redirect=true" target="iframe_redirect" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScoEJ8WIGU5jUu9wCjZWSn4L7fvjrWizaNkJpDff2IkTtyDGQ/formResponse" method="post"> -->
+<form onsubmit="sent_redirect=true" target="iframe_redirect">
+  <input type="text" id="demo_name" placeholder="name">
+  <input type="text" id="demo_office" placeholder="ccc">
+  <input type="text" id="demo_tel" placeholder="000000000">
+  <input type="text" id="demo_email" placeholder="test@mailbox.com">
+  <button type="submit" id="submit" name="button" value="submit">submit</button>
+</form>
+
+</body>
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+<script>
+  $(function() {
+    $('#submit').on('click', function() {
+      
+      // 姓名
+      var name = $('#demo_name').val() || '未填寫';
+
+      // 單位
+      var office = $('#demo_office').val() || '未填寫';
+
+      // 電話
+      var tel = $('#demo_tel').val() || '未填寫';
+
+      // email
+      var email = $('#demo_email').val() || '未填寫';
+
+      // post
+      var data = {
+        'entry.1080425870': name,
+        'entry.1172132975': office,
+        'entry.1216240990': tel,
+        'entry.802027899': email
+      };
+      $.ajax({
+        type: 'POST',
+        url: 'https://docs.google.com/forms/u/0/d/e/1FAIpQLScoEJ8WIGU5jUu9wCjZWSn4L7fvjrWizaNkJpDff2IkTtyDGQ/formResponse',
+        data: data,
+        contentType: 'application/json',
+        dataType: 'jsonp',
+        //complete: function() {
+        //    alert('資料已送出！');
+        //  }
+        });
+        
+      });
+    });
+</script>
+</html>

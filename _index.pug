@@ -1,0 +1,58 @@
+doctype html
+html(lang="zh-Hant-TW")
+  head
+    include _templates/matadata.pug
+    title 武星級職場
+    link(rel="stylesheet" href="css/xueMain.css")
+  = '\n'
+
+  body
+    iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-TVPWDJTD', height='0', width='0', style='display:none;visibility:hidden')
+    = '\n'
+    #wrap.bg_blue
+      head
+        include _templates/pageTop.pug
+      = '\n'
+      main.bg_default
+        img.bg_foot(src="images/bg_foot.svg" alt="bar_down")
+        #container
+          #list_events
+            ul
+              li
+                a(href="events/202306/info.html" title="6月虎山健行")
+                  img(src="images/index_event-01.webp", alt="6月虎山健行")
+              li
+                a(href="events/202307/info.html" title="7月羽球")
+                  img(src="images/index_event-02.webp", alt="7月羽球")
+            ul
+              li
+                a(href="events/202308/info.html" title="8月瑜珈/核心訓練")
+                  img(class="lozad" src="images/index_event-03.webp", alt="8月瑜珈/核心訓練")
+              li
+                a(href="events/202309/preview.html" title="9月武田家庭日")
+                  img(class="lozad" src="images/index_event-04.webp", alt="9月武田家庭日")
+              li
+                a(href="events/202310/preview.html" title="10月籃球")
+                  img(class="lozad" src="images/index_event-05.webp", alt="10月籃球")
+              li
+                a(href="events/202311/preview.html" title="11月電影欣賞")
+                  img(class="lozad" src="images/index_event-06.webp", alt="11月電影欣賞")
+              li
+                a(href="events/202312/preview.html" title="12月羽球")
+                  img(class="lozad" src="images/index_event-07.webp", alt="12月羽球")
+              li
+                a(href="events/202401/preview.html" title="1月桌球")
+                  img(class="lozad" src="images/index_event-08.webp", alt="1月桌球")
+            ul
+              li
+                a(href="events/202402/preview.html" title="2月飛輪有氧")
+                  img(class="lozad" src="images/index_event-09.webp", alt="2月飛輪有氧")
+              li
+                a(href="events/202403/preview.html" title="3月羽球")
+                  img(class="lozad" src="images/index_event-10.webp", alt="3月羽球")
+
+    = '\n'
+    script(src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js")
+    script(src="https://cdn.jsdelivr.net/npm/jquery-migrate/dist/jquery-migrate.min.js")
+    script(src="https://cdn.jsdelivr.net/npm/loadjs/dist/loadjs.umd.min.js")
+    script(src="scripts/script.js")

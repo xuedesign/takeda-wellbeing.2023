@@ -1,0 +1,25 @@
+doctype html
+html(lang="zh-Hant-TW")
+  head
+    include _templates/matadata.pug
+    title 意見回饋 | 武星級職場
+    link(rel="stylesheet" href="css/xueMain.css")
+  = '\n'
+
+  body
+    iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-TVPWDJTD', height='0', width='0', style='display:none;visibility:hidden')
+    = '\n'
+    #wrap.bg_blue
+      head
+        include _templates/pageTop.pug
+      = '\n'
+      main.bg_default
+        img.bg_foot(src="images/bg_foot.svg" alt="bar_down")
+        #container(style="border: 1px solid #111;")
+          
+
+    = '\n'
+    script(src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js")
+    script(src="https://cdn.jsdelivr.net/npm/jquery-migrate/dist/jquery-migrate.min.js")
+    script(src="https://cdn.jsdelivr.net/npm/loadjs/dist/loadjs.umd.min.js")
+    script(src="scripts/script.js")

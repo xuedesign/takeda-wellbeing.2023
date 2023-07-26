@@ -1,0 +1,1 @@
+loadjs("https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js",(function(){lozad().observe()})),loadjs(["https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css","https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"]);

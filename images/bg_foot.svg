@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 249" width="1920" height="249">
+	<title>版面設計</title>
+	<style>
+		.s0 { fill: #fefefe } 
+		.s1 { fill: #ec1c24 } 
+	</style>
+	<g id="版面設計">
+		<g id="-e-底部bar">
+			<path id="&lt;Path&gt;" class="s0" d="m1920 0.8c0 0-668.8 254.9-1920 140.2v108h1920z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m0 3.5c0 0 668.8 255 1920 140.3v105.2h-1920z"/>
+		</g>
+	</g>
+</svg>
