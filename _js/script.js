@@ -5,4 +5,4 @@ loadjs('https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js', function() {
 });
 
 //fancybox
-loadjs(['https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js']);
+loadjs(['https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js']);

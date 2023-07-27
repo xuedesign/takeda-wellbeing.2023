@@ -1,30 +1,30 @@
 @charset "utf-8";
 /*-- Created By
-   ##############               ###############   
-    ##############             ###############    
-    ##############             ##############     
-     ##############           ##############      
-      ##############          #############       
-       #############         ##############       
-        #############       ##############        
-        ##############      #############         
-         ###############################          
-         ###############################          
-        #################################         
-        ##############     ##############         
-       ##############       ##############        
-       ##############        ##############       
-      ##############         #######           
-     ###############          ##############      
-     ##############           ###############     
-    ######      
-    ##############              ##############    
+   ##############               ###############
+    ##############             ###############
+    ##############             ##############
+     ##############           ##############
+      ##############          #############
+       #############         ##############
+        #############       ##############
+        ##############      #############
+         ###############################
+         ###############################
+        #################################
+        ##############     ##############
+       ##############       ##############
+       ##############        ##############
+      ##############         #######
+     ###############          ##############
+     ##############           ###############
+    ######
+    ##############              ##############
    ##############               ##############
-          
-                 xuedesign studio 
+
+                 xuedesign studio
              https://www.xuedesign.tw/
 *
-* @project    Takeda Wellbeing
+* @project    Takeda Wellbeing website
 * @Author     ElmoXL <hello@xuedesign.tw>
 * @copyright  2023 xuedesign studio
 * @version    v202307
@@ -56,6 +56,17 @@ h2{
 #btn_group{
     width: 60%;
 }
+.form_AugYoga{
+    margin-bottom: 100px;
+}
+.box_eventInfo p,
+.box_eventInfo li{
+    font-size:2.5rem;
+    line-height:4.5rem
+}
+.comsoon{
+    width: 50%;
+}
 }
 
 @media (max-width:1400px) {
@@ -63,7 +74,9 @@ h2{
 }
 
 @media (max-width:1300px) {
-
+.box_showpicc{
+    margin: 70px auto 20px auto;
+}
 }
 
 /*
@@ -86,6 +99,23 @@ h2{
 }
 #btn_group{
     width: 70%;
+}
+.form_feedback{
+    height: 1475px;
+}
+.form_AugYoga{
+    margin-bottom: 0;
+}
+.box_showpicc{
+    margin: 70px auto 0 auto;
+}
+.note_red{
+    width: 240px;
+    font-size:2rem;
+}
+.info_item{
+    display: block;
+    width: 90%;
 }
 }
 
@@ -113,7 +143,7 @@ h2{
 }
 .bar_title,
 .bar_title-s{
-    top:-10px;
+    top:-13px;
     left: 30px;
     font-size: 2.5rem;
     line-height: 15px;
@@ -128,16 +158,45 @@ h2{
     width: 236px;
     height: 37px;
 }
-.form_feedback{
-    height: 1490px;
+.form_feedback,
+.form_AugYoga{
     padding-top: 70px
-
+}
+.form_feedback{
+    height: 1446px;
+}
+.form_AugYoga{
+    height: 1100px;
+    margin-bottom: 60px;
 }
 #btn_group{
     width: 80%;
 }
 .mybtn{
     margin: 0 15px;
+}
+.box_showpicc{
+    width: 80%;
+    margin: 70px auto -20px auto;
+}
+.box_eventInfo h4{
+    font-size: 3rem;
+    line-height: 4rem;
+    margin: 20px 0;
+}
+.box_eventInfo p,
+.box_eventInfo li{
+    font-size:2.4rem;
+    line-height:4.5rem;
+    padding-left: 20px;
+}
+.box_eventInfo li span,
+.box_eventInfo h5{
+    font-size: 2.5rem;
+}
+.comsoon{
+    width: 70%;
+    font-size: 2rem;
 }
 }
 
@@ -160,15 +219,21 @@ h2{
     height: 24px;
 }
 .form_feedback{
-    height: 1550px;
-    padding-top: 70px
-
+    height: 1508px;
+}
+.form_AugYoga{
+    height: 1140px;
+    margin-bottom: 0;
 }
 #btn_group{
     width: 90%;
 }
 .mybtn{
     margin: 0
+}
+.box_showpicc{
+    width: 80%;
+    margin: 70px auto -40px auto;
 }
 }
 
@@ -207,12 +272,12 @@ h2{
 }
 .bar_title,
 .bar_title-s{
-    top:-10px;
+    top:-13px;
     left: 10px;
     font-size: 1.8rem;
     line-height: 15px;
     letter-spacing: 1px;
-    padding-top: 7px;
+    padding-top: 10px;
 }
 .bar_title{
     width: 300px;
@@ -222,10 +287,17 @@ h2{
     width: 190px;
     height: 30px;
 }
-.form_feedback{
+.form_feedback,
+.form_AugYoga{
     width: 100%;
     padding-top: 40px;
-    height: 1520px;
+}
+.form_feedback{
+    height: 1478px;
+}
+.form_AugYoga{
+    height: 1110px;
+    margin-bottom: 60px;
 }
 #flatbox{
     bottom: 20px;
@@ -242,14 +314,55 @@ h2{
     line-height: 2.5rem;
     margin: 2% 1% ;
 }
+.box_showpicc{
+    width: 80%;
+    margin: 50px auto -40px auto;
+}
+.box_eventInfo{
+    width: 95%;
+}
+.box_eventInfo h4{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin: 10px 0;
+}
+.box_eventInfo p,
+.box_eventInfo li{
+    font-size:1.8rem;
+    line-height:3rem;
+    padding:0 0 20px 0;
+}
+.box_eventInfo li span,
+.box_eventInfo h5{
+    font-size: 2rem;
+}
+.img-w90,
+.img-w60{
+    width: 90%;
+}
+.note_red{
+    display: block;
+    float:none;
+    width: 200px;
+    font-size:1.6rem;
+    margin:50px auto -20px auto;
+}
+.comsoon{
+    width: 80%;
+    font-size: 1.8rem;
+}
 }
 /*
 =====================================
 手機(4.7"以下小螢幕) for-phone-only
 =====================================
 */
-@media (max-width: 321px) { /*300*/
+@media (max-width: 380px) { /*300*/
 .form_feedback{
-    height: 1588px;
+    height: 1498px;
+}
+.form_AugYoga{
+    height: 1155px;
+    margin-bottom: 0;
 }
 }

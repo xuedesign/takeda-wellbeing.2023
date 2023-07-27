@@ -24,7 +24,7 @@
                  xuedesign studio
              https://www.xuedesign.tw/
 *
-* @project    Takeda Wellbeing
+* @project    Takeda Wellbeing website
 * @Author     ElmoXL <hello@xuedesign.tw>
 * @copyright  2023 xuedesign studio
 * @version    v202307
@@ -84,7 +84,6 @@ img::-moz-selection { background: transparent}
   width: 100%;
   /* eight: 100%; */
 }
-
 %bgPic{
   background-repeat: no-repeat;
   background-size: contain;
@@ -92,7 +91,10 @@ img::-moz-selection { background: transparent}
   white-space: nowrap;
   overflow: hidden;
 }
-
+%boder_color{
+  display: block;
+  border: 8px solid;
+}
 /* $nav-link: #2E3234;
 $nav-hover: #f50; */
 
@@ -108,9 +110,17 @@ $nav-hover: #f50; */
 .bg_blue{
   background: linear-gradient(to bottom, #fff, #8dd7f7);
 }
+.bg_yeallow{
+  background: linear-gradient(to bottom, #fffefc, #fefac4);
+}
 /*畫面插圖*/
 .bg_default{
   background: url(../images/bg_defaults.webp) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.bg_yuga{
+  background: url(../images/event08/bg_yuga.webp) no-repeat;
   background-size: contain;
   background-position: bottom;
 }
@@ -191,7 +201,7 @@ main{
 .bar_title-s{
   display: block;
   position: absolute;
-  top:-20px;
+  top:-19px;
   left: 30px;
   font-size: 4rem;
   line-height: 30px;
@@ -214,12 +224,16 @@ main{
   background-size: contain;
 }
 .box_white{
-  display: block;
-  border: 8px solid;
-  /* border-radius: 30px; */
+  @extend %boder_color;
   border-image: linear-gradient(to bottom, #fff, transparent 70%);
   border-image-slice: 1;
   background: linear-gradient(to bottom, #ceeeff, transparent 70%);
+}
+.box_yeallow{
+  @extend %boder_color;
+  border-image: linear-gradient(to bottom, #f9da72, transparent 70%);
+  border-image-slice: 1;
+  background: linear-gradient(to bottom, #fffef7, rgba(241, 241, 200, .1) 70%);
 }
 
 /*
@@ -256,9 +270,17 @@ main{
   text-decoration: none;
   margin: 0 20px;
   padding-right: 20px;
+  transition: transform 0.5s;
+}
+a.mybtn:hover{
+  transform: scale(1.1)
 }
 .btn_red{
   background: url(../images/btn_red.svg) no-repeat;
+  background-size: contain;
+}
+.btn_yeallow{
+  background: url(../images/btn_yeallow.svg) no-repeat;
   background-size: contain;
 }
 

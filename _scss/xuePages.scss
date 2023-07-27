@@ -1,30 +1,30 @@
 @charset "utf-8";
 /*-- Created By
-   ##############               ###############   
-    ##############             ###############    
-    ##############             ##############     
-     ##############           ##############      
-      ##############          #############       
-       #############         ##############       
-        #############       ##############        
-        ##############      #############         
-         ###############################          
-         ###############################          
-        #################################         
-        ##############     ##############         
-       ##############       ##############        
-       ##############        ##############       
-      ##############         #######           
-     ###############          ##############      
-     ##############           ###############     
-    ######      
-    ##############              ##############    
+   ##############               ###############
+    ##############             ###############
+    ##############             ##############
+     ##############           ##############
+      ##############          #############
+       #############         ##############
+        #############       ##############
+        ##############      #############
+         ###############################
+         ###############################
+        #################################
+        ##############     ##############
+       ##############       ##############
+       ##############        ##############
+      ##############         #######
+     ###############          ##############
+     ##############           ###############
+    ######
+    ##############              ##############
    ##############               ##############
-          
-                 xuedesign studio 
+
+                 xuedesign studio
              https://www.xuedesign.tw/
 *
-* @project    Takeda Wellbeing
+* @project    Takeda Wellbeing website
 * @Author     ElmoXL <hello@xuedesign.tw>
 * @copyright  2023 xuedesign studio
 * @version    v202307
@@ -58,15 +58,133 @@
 }
 /*
 =====================================
-意見回饋
+活動介紹
 =====================================
 */
-.form_feedback{
+.comsoon{
+    display: block;
+    width: 30%;
+    margin: 20% auto;
+    padding: 5px 20px;
+    border-radius:50px;
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    background:#747474
+}
+.box_showpicc{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 30px auto;
+}
+.box_eventInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    min-height:500px;
+    /* border: 2px solid #111; */
+    margin: 30px auto 0 auto;
+    padding: 20px 0;
+}
+.info_item{
+    display: block;
+    width: 49%;
+    color: #343433;
+}
+.box_eventInfo h4{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+.box_eventInfo p,
+.box_eventInfo li{
+    font-weight: 400;
+    font-size:3rem;
+    line-height:4.5rem;
+    padding-left: 20px;
+}
+.box_eventInfo ul{}
+.box_eventInfo li{
+    padding-bottom: 10px;
+}
+.box_eventInfo li span,
+.box_eventInfo h5{
+    display: inline-block;
+    font-weight:700;
+    font-size: 2.5rem;
+}
+.box_eventInfo h5{
+    margin: 20px 0;
+}
+.box_eventInfo img{
+    display: block;
+    height: auto;
+    margin: 30px auto 20px auto;
+}
+.box_eventInfo .txt_short{
+    font-size: 2rem;
+    text-align: right;
+  }
+.img-w90{
+    width: 90%;
+}
+.img-w60{
+    width: 60%;
+}
+
+.note_red{
+    display: inline-block;
+    float: right;
+    margin:50px 30px 0 0;
+    padding: 8px 0;
+    border-radius: 30px;
+    width: 300px;
+    text-align: center;
+    font-size:2.4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: red;
+    color: #fff
+}
+.title_yeallow{
+    background: #f7cb2d;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.title_subyeallow{
+    background: #f8cb8a;
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin-right: 15px;
+}
+
+hr.line_yeallow{
+    border:3px dashed #f7cb2d;
+    width: 90%;
+    margin: 40px auto 0 auto;
+}
+/*
+=====================================
+表單設定
+=====================================
+*/
+.form_feedback,
+.form_AugYoga{
     display: block;
     width: 80%;
-    height: 1498px;
     padding-top: 100px;
     /* border:1px solid #111; */
     margin: 0 auto;
-
+}
+.form_feedback{
+    height: 1454px;
+}
+.form_AugYoga{
+    height: 1130px;
+    margin-bottom: 250px;
 }
