@@ -168,15 +168,58 @@ main{
   display: block;
   position: absolute;
   bottom: 0;
+  z-index: 10;
   width: 100%;
   height: auto;
 }
 #container{
   display: block;
   width: 80%;
-  /* min-height:5000px; */
+  /* min-height:2000px; */
   margin: 90px auto;
   padding-bottom: 600px;
+}
+#container-page{
+  display: block;
+  position: relative;
+  width: 80%;
+  /* min-height:1500px; */
+  margin: 80px auto 90px;
+  padding-bottom: 600px;
+}
+.bar_title,
+.bar_title-s{
+  display: block;
+  position: absolute;
+  top:-20px;
+  left: 30px;
+  font-size: 4rem;
+  line-height: 30px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 15px;
+}
+.bar_title{
+  width: 500px;
+  height: 62px;
+  background: url(../images/bar_title.png)no-repeat;
+  background-size: contain;
+}
+.bar_title-s{
+  width: 395px;
+  height: 62px;
+  background: url(../images/bar_title-s.png)no-repeat;
+  background-size: contain;
+}
+.box_white{
+  display: block;
+  border: 8px solid;
+  /* border-radius: 30px; */
+  border-image: linear-gradient(to bottom, #fff, transparent 70%);
+  border-image-slice: 1;
+  background: linear-gradient(to bottom, #ceeeff, transparent 70%);
 }
 
 /*
@@ -184,20 +227,39 @@ main{
 按鈕設定
 =====================================
 */
-.mybtn{
-    font-weight: 500;
-    line-height: 2.2rem;
-    letter-spacing: 1px;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 10px;
-    border:1px solid #BAA4A4
+#flatbox{
+  display: block;
+  position: fixed;
+  bottom: 50px;
+  z-index: 100;
+  width: 100%;
+  text-align: center;
+}
+#btn_group{
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(211, 211, 211, 0.5);
+  padding: 10px 20px;
+  border-radius:30px
 }
 .mybtn{
-  display: block;
-  padding: 8px 5px;
-  font-size: 1.8rem
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 20px;
+  padding-right: 20px;
+}
+.btn_red{
+  background: url(../images/btn_red.svg) no-repeat;
+  background-size: contain;
 }
 
 

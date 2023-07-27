@@ -15,11 +15,18 @@ html(lang="zh-Hant-TW")
       = '\n'
       main.bg_default
         img.bg_foot(src="images/bg_foot.svg" alt="bar_down")
-        #container(style="border: 1px solid #111;")
-          
+        #container-page.box_white
+          h3.bar_title-s 意見回饋
+          iframe.form_feedback(src='https://docs.google.com/forms/d/e/1FAIpQLSdqDx8rD7F38Q8FG_gBI6TWk-QnRR0I1EJSZ6-3lpzrc2u3Wg/viewform?embedded=true', frameborder='0', marginheight='0', marginwidth='0', scrolling="no") 載入中
+        #flatbox
+          #btn_group
+            //a.mybtn.btn_red(href="index" title="意見回饋") 意見回饋
+            a.mybtn.btn_red(href="index" title="回首頁") 回上頁
+            //a.mybtn.btn_red(href="index" title="我要參加") 我要參加
 
     = '\n'
     script(src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js")
     script(src="https://cdn.jsdelivr.net/npm/jquery-migrate/dist/jquery-migrate.min.js")
     script(src="https://cdn.jsdelivr.net/npm/loadjs/dist/loadjs.umd.min.js")
     script(src="scripts/script.js")
+    script(src='https://instant.page/5.2.0', type='module', integrity='sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z')
