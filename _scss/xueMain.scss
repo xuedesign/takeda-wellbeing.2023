@@ -242,7 +242,7 @@ main{
 =====================================
 */
 #flatbox{
-  display: block;
+  display: none;
   position: fixed;
   bottom: 50px;
   z-index: 100;
@@ -252,6 +252,7 @@ main{
   transition: opacity 0.5s ease;
 }
 #flatbox.fade-in {
+  display: block;
   opacity: 1;
 }
 #btn_group{
