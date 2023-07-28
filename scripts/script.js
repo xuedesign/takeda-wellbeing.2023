@@ -1,1 +1,1 @@
-loadjs("https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js",(function(){lozad().observe()})),loadjs(["https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"]);
+loadjs("https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js",(function(){lozad().observe()})),loadjs("https://takeda-wellbeing.pages.dev/scripts/ScrollFadein.js"),loadjs(["https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"]);
