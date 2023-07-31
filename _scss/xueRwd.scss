@@ -188,7 +188,6 @@ h2{
 .box_eventInfo li{
     font-size:2.4rem;
     line-height:4.5rem;
-    padding-left: 20px;
 }
 .box_eventInfo li span,
 .box_eventInfo h5{
@@ -261,6 +260,11 @@ h2{
     margin: 60px auto;
     padding-bottom: 200px;
 }
+#list_events h3{
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 30px;
+}
 #list_events li{
     display:block;
     width: 45%;
@@ -330,7 +334,9 @@ h2{
 .box_eventInfo li{
     font-size:1.8rem;
     line-height:3rem;
-    padding:0 0 20px 0;
+}
+.box_eventInfo ul li{
+    list-style: disc;
 }
 .box_eventInfo li span,
 .box_eventInfo h5{
