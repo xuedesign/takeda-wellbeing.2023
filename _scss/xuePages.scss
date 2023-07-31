@@ -94,10 +94,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
     width: 90%;
-    min-height:500px;
-    /* border: 2px solid #111; */
+    /* min-height:500px;
+    border: 2px solid #111; */
     margin: 30px auto 0 auto;
-    padding: 20px 0;
+    padding: 20px 0 50px;
 }
 .info_item{
     display: block;
@@ -118,7 +118,7 @@
     font-size:3rem;
     line-height:4.5rem;
 }
-.box_eventInfo p{ 
+.box_eventInfo p{
     padding-left: 20px;
 }
 .box_eventInfo ul{
@@ -153,12 +153,41 @@
 .box_eventInfo .txt_short{
     font-size: 2rem;
     text-align: right;
-  }
+}
 .img-w90{
     width: 90%;
 }
 .img-w60{
     width: 60%;
+}
+.photos_item{
+    display: block;
+    width: 100%;
+    padding: 50px 0 300px;
+    /* border: 1px solid #111; */
+}
+.photos_item img{
+    display: inline-block;
+    width: 43%;
+    height: auto;
+    margin: 0 3% 50px 3%;
+    vertical-align: top;
+}
+#box_gallery{
+    display: block;
+    width: 90%;
+    min-height:500px;
+    margin: 30px auto 0 auto;
+    padding: 100px 0;
+}
+#box_gallery img{
+    display: inline-block;
+    width: 43%;
+    height: auto;
+    margin: 0 3% 50px 3%;
+    vertical-align: top;
+    border: 5px solid #37a4c4;
+    border-radius: 30px;
 }
 
 .note_red{
@@ -186,9 +215,44 @@
     padding: 5px 20px;
     margin-right: 15px;
 }
-
 hr.line_yeallow{
     border:3px dashed #f7cb2d;
+    width: 90%;
+    margin: 40px auto 0 auto;
+}
+.title_blue{
+    color: #fff;
+    background: #2771bb;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.title_subblue{
+    color: #fff;
+    background: #37a4c4;
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin-right: 15px;
+}
+hr.line_blue{
+    border:3px dashed #2771bb;
+    width: 90%;
+    margin: 40px auto 0 auto;
+}
+.title_green{
+    color: #fff;
+    background: #4b9063;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.title_subgreen{
+    color: #fff;
+    background: #86b04c;
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin-right: 15px;
+}
+hr.line_green{
+    border:3px dashed #4b9063;
     width: 90%;
     margin: 40px auto 0 auto;
 }

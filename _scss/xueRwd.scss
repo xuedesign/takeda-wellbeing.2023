@@ -77,6 +77,9 @@ h2{
 .box_showpicc{
     margin: 70px auto 20px auto;
 }
+.minHeight{ 
+    min-height:500px
+}
 }
 
 /*
@@ -116,6 +119,16 @@ h2{
 .info_item{
     display: block;
     width: 90%;
+}
+.photos_item img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 0 50px 0;
+    vertical-align: top;
+}
+.minHeight{ 
+    min-height:300px
 }
 }
 
@@ -196,6 +209,21 @@ h2{
 .comsoon{
     width: 70%;
     font-size: 2rem;
+}
+.photos_item{
+    padding: 50px 0 100px;
+}
+#box_gallery{
+    padding: 50px 0;
+}
+#box_gallery img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 0 50px
+}
+.minHeight{ 
+    min-height:500px
 }
 }
 
@@ -356,6 +384,9 @@ h2{
 .comsoon{
     width: 80%;
     font-size: 1.8rem;
+}
+.minHeight{ 
+    min-height:200px
 }
 }
 /*

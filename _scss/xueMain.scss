@@ -66,7 +66,7 @@ form{ margin:0; padding:0}
 image{border:0}
 .clean{ clear:both}
 .hidden{ visibility:hidden;}
-
+.minHeight{ min-height:800px}
 
 /*頁面反白設定*/
 ::selection { background: #ec1d23; color: #EFDFC5}
@@ -113,6 +113,10 @@ $nav-hover: #f50; */
 .bg_yeallow{
   background: linear-gradient(to bottom, #fffefc, #fefac4);
 }
+.bg_green{
+  background: linear-gradient(to bottom, #fffefc, #bfe5d5);
+}
+
 /*畫面插圖*/
 .bg_default{
   background: url(../images/bg_defaults.webp) no-repeat;
@@ -124,6 +128,17 @@ $nav-hover: #f50; */
   background-size: contain;
   background-position: bottom;
 }
+.bg_mountain{
+  background: url(../images/event06/bg_mountain.png) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.bg_badminton{
+  background: url(../images/event07/bg_badminton.webp) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
 
 
 /*
@@ -235,6 +250,18 @@ main{
   border-image-slice: 1;
   background: linear-gradient(to bottom, #fffef7, rgba(241, 241, 200, .1) 70%);
 }
+.box_blue{
+  @extend %boder_color;
+  border-image: linear-gradient(to bottom, #fff, transparent 70%);
+  border-image-slice: 1;
+  background: linear-gradient(to bottom, #c5e9fa, transparent 70%);
+}
+.box_green{
+  @extend %boder_color;
+  border-image: linear-gradient(to bottom, #9dd6bf, transparent 70%);
+  border-image-slice: 1;
+  background: linear-gradient(to bottom, #ebf7f2, transparent 70%);
+}
 
 /*
 =====================================
@@ -287,6 +314,14 @@ a.mybtn:hover{
 }
 .btn_yeallow{
   background: url(../images/btn_yeallow.svg) no-repeat;
+  background-size: contain;
+}
+.btn_blue{
+  background: url(../images/btn_blue.svg) no-repeat;
+  background-size: contain;
+}
+.btn_green{
+  background: url(../images/btn_green.svg) no-repeat;
   background-size: contain;
 }
 

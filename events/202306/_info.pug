@@ -13,16 +13,69 @@ html(lang="zh-Hant-TW")
       head
         include ../../_templates/pageTop-page.pug
       = '\n'
-      main.bg_default
+      main.bg_mountain
         img.bg_foot(src="../../images/bg_foot.svg" alt="bar_down")
-        #container-page.box_white(style="min-height:1500px")
-          h3.bar_title-s 6月虎山健行
-          h4.comsoon 網頁建構中 COMING SOON
+        img.box_showpicc(src="../../images/event06/pic_sample.webp", alt="mountain")
+        #container-page.box_blue
+          h3.bar_title 6月虎山健行
+          .box_eventInfo
+            .info_item
+              h4.title_blue 時間
+              p 2023.06.16（五）14:00-17:00
+              //hr.line_blue
+              h4.title_blue 地點
+              p 虎山步道(台北市信義區福德街251巷 33號)
+              //hr.line_blue
+              h4.title_blue 行程規劃
+              ol.schedule
+                li
+                  span.title_subblue 14:00
+                  |登山口暖身、領取物資
+                li
+                  span.title_subblue 14:30
+                  |攀登虎山自然步道
+                li
+                  span.title_subblue 15:00
+                  |四獸廣場拍攝團體照
+                li
+                  span.title_subblue 16:30
+                  |虎山峯觀景平台
+                li
+                  span.title_subblue 17:00
+                  |奉天宮出口領取餐盒、賦歸
+            .info_item
+                a(href="../../images/event06/pic_road.png", data-fancybox="gallery", data-caption="虎山步道路線圖")
+                  img(src="../../images/event06/pic_road.png")
+                p.txt_short ⚲點擊地圖放大瀏覽
+          hr.line_blue
+          .box_eventInfo
+            .info_item
+                h4.title_blue 交通資訊
+                br
+                h5.title_subblue 大眾運輸
+                p 搭乘至捷運後山埤站，步行即可抵達登山口 (約15mins)，或可搭乘計程車前往 (約4mins)
+                h5.title_subblue 自行開車
+                p 導航前往松山慈惠堂 
+                  span.txt_short (110台北市信義區福德街251巷33號)
+                  br
+                  |車輛可停放於慈惠堂停車場
+            .info_item
+                a(href="../../images/event06/pic_map.png", data-fancybox="gallery", data-caption="前往虎山交通指引")
+                  img(src="../../images/event06/pic_map.png" alt="前往虎山交通指引")
+            .photos_item
+                a(href="../../images/event06/pic_street-1.webp", data-fancybox="gallery", data-caption="交通指引街景圖")
+                  img(src="../../images/event06/pic_street-1.webp" alt="交通指引街景圖")
+                a(href="../../images/event06/pic_street-2.webp", data-fancybox="gallery", data-caption="交通指引街景圖")
+                  img(src="../../images/event06/pic_street-2.webp" alt="交通指引街景圖")
+                a(href="../../images/event06/pic_street-3.webp", data-fancybox="gallery", data-caption="交通指引街景圖")
+                  img(src="../../images/event06/pic_street-3.webp" alt="交通指引街景圖")
+                a(href="../../images/event06/pic_street-4.webp", data-fancybox="gallery", data-caption="交通指引街景圖")
+                  img(src="../../images/event06/pic_street-4.webp" alt="交通指引街景圖")
         #flatbox
           #btn_group
-            a.mybtn.btn_red(href="../../feedback" title="意見回饋") 意見回饋
-            //a.mybtn.btn_red(href="info" title="活動介紹") 活動介紹
-            a.mybtn.btn_red(href="../../index" title="回首頁") 回首頁
+            a.mybtn.btn_blue(href="../../feedback" title="意見回饋") 意見回饋
+            a.mybtn.btn_blue(href="photos" title="活動相片") 活動相片
+            a.mybtn.btn_blue(href="../../index" title="回首頁") 回首頁
 
     = '\n'
     script(src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js")

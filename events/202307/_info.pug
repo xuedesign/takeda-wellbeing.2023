@@ -9,20 +9,93 @@ html(lang="zh-Hant-TW")
   body
     iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-TVPWDJTD', height='0', width='0', style='display:none;visibility:hidden')
     = '\n'
-    #wrap.bg_blue
+    #wrap.bg_green
       head
         include ../../_templates/pageTop-page.pug
       = '\n'
-      main.bg_default
+      main.bg_badminton
         img.bg_foot(src="../../images/bg_foot.svg" alt="bar_down")
-        #container-page.box_white(style="min-height:1500px")
-          h3.bar_title-s 7月羽球
-          h4.comsoon 網頁建構中 COMING SOON
+        img.box_showpicc(src="../../images/event07/pic_sample.webp", alt="mountain")
+        #container-page.box_green
+          h3.bar_title 7月羽球
+          .box_eventInfo
+            .info_item
+              h4.title_green 時間
+              p 2023.07.14（五）14:00-18:00
+              h4.title_green 行程規劃
+              ol.schedule
+                li
+                  span.title_subgreen 14:00
+                  |集合、報到
+                li
+                  span.title_subgreen 14:15
+                  |教練帶操熱身
+                li
+                  span.title_subgreen 14:30
+                  |基礎動作教學
+                li
+                  span.title_subgreen 15:30
+                  |自由練習與對打
+                li
+                  span.title_subgreen 18:00
+                  |賦歸
+            .info_item
+                h4.title_green 地點
+                p 蓬萊國小綜合體育館
+                  br
+                  span.txt_short (103台北市大同區寧夏路35號)
+                a(href="../../images/event07/pic_map.webp", data-fancybox="gallery", data-caption="蓬萊國小綜合體育館")
+                  img(src="../../images/event07/pic_map.webp")
+                p.txt_short ⚲點擊地圖放大瀏覽
+          hr.line_green
+          .box_eventInfo
+            .info_item
+                h4.title_green 交通資訊
+                br
+                h5.title_subgreen 大眾運輸
+                p 搭乘至捷運雙連站，步行即可抵達蓬萊國小綜合體育館(約10mins)
+            .info_item
+                h5.title_subgreen 自行開車
+                p 導航前往 蓬萊國小地下停車場
+                  br
+                  span.txt_short (103台北市大同區寧夏路35號)
+                  br
+                  | 車輛可停放於此
+          hr.line_green
+          .box_eventInfo
+            .info_item
+              img.img-w60(src="../../images/event07/pic_coach.webp")
+              h4.title_green 證照
+              ul
+                li 中華民國羽球國家A級教練證
+                li 中華民國羽球、網球裁判證
+            .info_item
+              h4.title_green 教練經歷
+              ul
+                li 台北市中正區體育會羽球隊總教練
+                li SF結構式羽球教學團隊總教練
+                li 世新大學羽球社教練
+                li 永平高中羽球社教練
+                li 工商建研會羽球隊總教練
+                li 政大企經協會羽球隊總教練
+                li 警政署保安大隊羽球教練
+                li 劍新羽球館總教練
+                li 新北市和風羽球協會總教練
+                li 新北市中和國民運動中心教練
+              h4.title_green 比賽經歷
+              ul.minHeight
+                li 2021年全國Duck盃羽球錦標賽單打冠軍
+                li 全國FLYPOWER盃羽球錦標賽冠軍
+                li 國際清晨盃單、雙打冠軍
+                li 全國會長盃冠軍
+                li 全運會北縣單、雙打代表
+                li 全運會前四
+                li JEFF羽球賽事承辦團隊總召
         #flatbox
           #btn_group
-            a.mybtn.btn_red(href="../../feedback" title="意見回饋") 意見回饋
-            //a.mybtn.btn_red(href="info" title="活動介紹") 活動介紹
-            a.mybtn.btn_red(href="../../index" title="回首頁") 回首頁
+            a.mybtn.btn_green(href="../../feedback" title="意見回饋") 意見回饋
+            a.mybtn.btn_green(href="photos" title="活動相片") 活動相片
+            a.mybtn.btn_green(href="../../index" title="回首頁") 回首頁
 
     = '\n'
     script(src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js")
