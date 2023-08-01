@@ -69,20 +69,42 @@
 }
 /*
 =====================================
-活動介紹
+活動預告
 =====================================
 */
+.box_preview{
+    display: block;
+    width:90%;
+    margin: 100px auto 0;
+    /* border: 1px solid #111 */
+}
+.box_preview img{
+    display: inline-block;
+    float: right;
+    margin: 0 0 20px 80px;
+}
+.box_preview p{
+    padding-top: 30px;
+    font-size: 2.5rem;
+    line-height: 4.5rem;
+    text-align: justify;
+}
 .comsoon{
     display: block;
     width: 30%;
-    margin: 20% auto;
+    margin: 50px auto;
     padding: 5px 20px;
     border-radius:50px;
     font-size: 3rem;
     color: #fff;
     text-align: center;
-    background:#747474
+    background:#979797
 }
+/*
+=====================================
+活動介紹
+=====================================
+*/
 .box_showpicc{
     display: block;
     width: 70%;

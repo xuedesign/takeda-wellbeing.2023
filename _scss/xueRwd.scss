@@ -67,6 +67,11 @@ h2{
 .comsoon{
     width: 50%;
 }
+.box_preview img{
+    width: 45%;
+    height: auto;
+    margin: 0 0 20px 80px;
+}
 }
 
 @media (max-width:1400px) {
@@ -129,6 +134,9 @@ h2{
 }
 .minHeight{ 
     min-height:300px
+}
+.box_preview p{
+    padding-top: 0;
 }
 }
 
@@ -222,8 +230,15 @@ h2{
     height: auto;
     margin: 0 0 50px
 }
-.minHeight{ 
+.minHeight{
     min-height:500px
+}
+.box_preview img{
+    display: block;
+    float: none;
+    width: 100%;
+    height: auto;
+    margin: 0 0 30px 0;
 }
 }
 
@@ -387,6 +402,10 @@ h2{
 }
 .minHeight{ 
     min-height:200px
+}
+.box_preview p{
+    font-size: 2rem;
+    line-height: 3.5rem;
 }
 }
 /*
