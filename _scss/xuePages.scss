@@ -226,6 +226,15 @@
     background: red;
     color: #fff
 }
+.signup_end{
+    display: inline-block;
+    float: right;
+    margin:110px -230px 0 0;
+    font-size:2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #343433;
+}
 .title_yeallow{
     background: #f7cb2d;
     border-radius: 30px;
@@ -283,6 +292,9 @@ hr.line_green{
 表單設定
 =====================================
 */
+main.xpWfed{
+    display: none;
+}
 .form_feedback,
 .form_AugYoga{
     display: block;
