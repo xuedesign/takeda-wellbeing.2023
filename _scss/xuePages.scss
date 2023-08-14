@@ -208,8 +208,17 @@
     height: auto;
     margin: 0 3% 50px 3%;
     vertical-align: top;
-    border: 5px solid #37a4c4;
+    border: 5px solid;
     border-radius: 30px;
+}
+#box_gallery.photo_blue img{
+    border-color: #37a4c4;
+}
+#box_gallery.photo_green img{
+    border-color: #227637;
+}
+#box_gallery.photo_yeallow img{
+    border-color: #f9da73;
 }
 
 .note_red{
