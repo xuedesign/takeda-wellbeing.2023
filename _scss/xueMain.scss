@@ -27,7 +27,7 @@
 * @project    Takeda Wellbeing website
 * @Author     ElmoXL <hello@xuedesign.tw>
 * @copyright  2023 xuedesign studio
-* @version    v202307
+* @version    v202309
 *
 **/
 
@@ -67,6 +67,11 @@ image{border:0}
 .clean{ clear:both}
 .hidden{ visibility:hidden;}
 .minHeight{ min-height:800px}
+.text-strong{ 
+  font-weight:700;
+  padding-top: 30px;
+}
+.text_pinkred{color: #c62253}
 
 /*頁面反白設定*/
 ::selection { background: #ec1d23; color: #EFDFC5}
@@ -116,6 +121,9 @@ $nav-hover: #f50; */
 .bg_green{
   background: linear-gradient(to bottom, #fffefc, #bfe5d5);
 }
+.bg_pinkred{
+  background: linear-gradient(to bottom, #fffefc, #f2b9ad);
+}
 
 /*畫面插圖*/
 .bg_default{
@@ -135,6 +143,11 @@ $nav-hover: #f50; */
 }
 .bg_badminton{
   background: url(../images/event07/bg_badminton.webp) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+.bg_picnic{
+  background: url(../images/event09/bg_picnic.webp) no-repeat;
   background-size: contain;
   background-position: bottom;
 }
@@ -204,14 +217,17 @@ main{
   margin: 80px auto;
   padding-bottom: 600px;
 }
-#container-page{
+#container-page,
+#container-page-sep{
   display: block;
   position: relative;
   width: 80%;
   /* min-height:1500px; */
   margin: 80px auto 90px;
-  padding-bottom: 600px;
 }
+#container-page{ padding-bottom: 600px;}
+#container-page-sep{ padding-bottom: 1200px;}
+
 .bar_title,
 .bar_title-s{
   display: block;
@@ -261,6 +277,13 @@ main{
   border-image: linear-gradient(to bottom, #9dd6bf, transparent 70%);
   border-image-slice: 1;
   background: linear-gradient(to bottom, #ebf7f2, transparent 70%);
+}
+.box_pinkred{
+  @extend %boder_color;
+  border-image: linear-gradient(to bottom, #d66783, transparent 80%);
+  border-image-slice: 1;
+  background: linear-gradient(to bottom, #fef9f6, transparent 80%);
+  padding-bottom: 1500px;
 }
 
 /*
@@ -322,6 +345,10 @@ a.mybtn:hover{
 }
 .btn_green{
   background: url(../images/btn_green.svg) no-repeat;
+  background-size: contain;
+}
+.btn_pinkred{
+  background: url(../images/btn_pinkred.svg) no-repeat;
   background-size: contain;
 }
 

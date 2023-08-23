@@ -27,7 +27,7 @@
 * @project    Takeda Wellbeing website
 * @Author     ElmoXL <hello@xuedesign.tw>
 * @copyright  2023 xuedesign studio
-* @version    v202307
+* @version    v202309
 *
 **/
 
@@ -59,6 +59,9 @@ h2{
 .form_AugYoga{
     margin-bottom: 100px;
 }
+.form_SepPicnic{
+    margin-bottom: 250px;
+}
 .box_eventInfo p,
 .box_eventInfo li{
     font-size:2.5rem;
@@ -72,6 +75,8 @@ h2{
     height: auto;
     margin: 0 0 20px 80px;
 }
+#container-page-sep{ 
+    padding-bottom: 800px;}
 }
 
 @media (max-width:1400px) {
@@ -85,6 +90,8 @@ h2{
 .minHeight{ 
     min-height:500px
 }
+#container-page-sep{ 
+    padding-bottom: 700px;}
 }
 
 /*
@@ -113,6 +120,9 @@ h2{
 }
 .form_AugYoga{
     margin-bottom: 0;
+}
+.form_SepPicnic{
+    margin-bottom: 50px;
 }
 .box_showpicc{
     margin: 70px auto 0 auto;
@@ -162,6 +172,9 @@ h2{
 #container-page{
     padding-bottom: 300px;
 }
+#container-page-sep{
+    padding-bottom: 450px;
+}
 .bar_title,
 .bar_title-s{
     top:-13px;
@@ -180,7 +193,8 @@ h2{
     height: 37px;
 }
 .form_feedback,
-.form_AugYoga{
+.form_AugYoga,
+.form_SepPicnic{
     padding-top: 70px
 }
 .form_feedback{
@@ -189,6 +203,9 @@ h2{
 .form_AugYoga{
     height: 1100px;
     margin-bottom: 60px;
+}
+.form_SepPicnic{
+    margin-bottom: 150px;
 }
 #btn_group{
     width: 80%;
@@ -267,6 +284,10 @@ h2{
     height: 1140px;
     margin-bottom: 0;
 }
+.form_SepPicnic{
+    height: 1950px;
+    margin-bottom: 0;
+}
 #btn_group{
     width: 90%;
 }
@@ -298,10 +319,17 @@ h2{
     height: 17px;
 }
 #container,
-#container-page{
+#container-page,
+#container-page-sep{
     width: 90%;
-    margin: 60px auto;
+    margin: 60px auto
+}
+#container,
+#container-page{
     padding-bottom: 200px;
+}
+#container-page-sep{
+    padding-bottom: 250px;
 }
 #list_events h3{
     font-size: 2rem;
@@ -335,7 +363,8 @@ h2{
     height: 30px;
 }
 .form_feedback,
-.form_AugYoga{
+.form_AugYoga,
+.form_SepPicnic{
     width: 100%;
     padding-top: 40px;
 }
@@ -345,6 +374,10 @@ h2{
 .form_AugYoga{
     height: 1110px;
     margin-bottom: 60px;
+}
+.form_SepPicnic{
+    height: 1950px;
+    margin-bottom: 0;
 }
 #flatbox{
     bottom: 20px;
@@ -367,9 +400,10 @@ h2{
 }
 .box_eventInfo{
     width: 95%;
+    padding: 20px 0 0;
 }
 .box_eventInfo h4{
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 3rem;
     margin: 10px 0;
 }
@@ -383,7 +417,7 @@ h2{
 }
 .box_eventInfo li span,
 .box_eventInfo h5{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 .img-w90,
 .img-w60{
@@ -414,6 +448,10 @@ h2{
 .box_preview p{
     font-size: 2rem;
     line-height: 3.5rem;
+}
+.box_eventInfo .txt_short{
+    font-size: 1.6rem;
+    text-align: left;
 }
 }
 /*
