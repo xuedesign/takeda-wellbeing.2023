@@ -75,7 +75,7 @@
 .box_preview{
     display: block;
     width:90%;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     /* border: 1px solid #111 */
 }
 .box_preview img{
@@ -118,7 +118,7 @@
     width: 90%;
     /* min-height:500px;
     border: 2px solid #111; */
-    margin: 30px auto 0 auto;
+    margin: 0 auto;
     padding: 20px 0 50px;
 }
 .info_item{
@@ -130,6 +130,14 @@
     display: block;
     width: 100%;
     color: #343433;
+}
+.info_subitem{
+    display: inline-block;
+    width: 49%;
+    color: #343433;
+    padding: 0 20px;
+    font-size: 2.5rem;
+    font-weight:700
 }
 .box_eventInfo h4,
 .box_eventInfo-one h4{
@@ -187,10 +195,17 @@
     height: auto;
     margin: 30px auto 20px auto;
 }
-.box_eventInfo .txt_short{
+.box_eventInfo span.txt_short{
     font-weight: 400;
     font-size: 2rem;
     text-align: left;
+}
+.box_eventInfo .txt_short2{
+    display: block;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: left;
+    margin-left: 145px;
 }
 .img-w90{
     width: 90%;
@@ -350,7 +365,7 @@ main.xpWfed{
 .form_SepPicnic{
     display: block;
     width: 80%;
-    padding-top: 100px;
+    padding-top: 50px;
     /* border:1px solid #111; */
     margin: 0 auto;
 }

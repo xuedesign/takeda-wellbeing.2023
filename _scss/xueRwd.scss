@@ -78,9 +78,14 @@ h2{
 #container-page-sep{ 
     padding-bottom: 800px;}
 }
+.info_subitem{
+    font-size: 2.3rem;
+}
 
 @media (max-width:1400px) {
-
+    .info_subitem{
+        font-size: 2.2rem;
+    }
 }
 
 @media (max-width:1300px) {
@@ -92,7 +97,15 @@ h2{
 }
 #container-page-sep{ 
     padding-bottom: 700px;}
+.info_subitem{
+    font-size: 2.3rem;
 }
+.info_subitem .title_brake{
+    display: block;
+    padding-top: 10px;
+}
+}
+
 
 /*
 =====================================
@@ -195,7 +208,7 @@ h2{
 .form_feedback,
 .form_AugYoga,
 .form_SepPicnic{
-    padding-top: 70px
+    padding-top: 30px
 }
 .form_feedback{
     height: 1446px;
@@ -256,6 +269,11 @@ h2{
     width: 100%;
     height: auto;
     margin: 0 0 30px 0;
+}
+.info_subitem{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
 }
 }
 
@@ -322,7 +340,8 @@ h2{
 #container-page,
 #container-page-sep{
     width: 90%;
-    margin: 60px auto
+    margin: 60px auto;
+    padding-top: 30px;
 }
 #container,
 #container-page{
@@ -366,7 +385,7 @@ h2{
 .form_AugYoga,
 .form_SepPicnic{
     width: 100%;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 .form_feedback{
     height: 1478px;
@@ -376,7 +395,7 @@ h2{
     margin-bottom: 60px;
 }
 .form_SepPicnic{
-    height: 1950px;
+    height: 1780px;
     margin-bottom: 0;
 }
 #flatbox{
@@ -400,24 +419,37 @@ h2{
 }
 .box_eventInfo{
     width: 95%;
-    padding: 20px 0 0;
+    margin: 0 auto;
+    padding: 10px 0 20px;
 }
 .box_eventInfo h4{
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
     margin: 10px 0;
 }
 .box_eventInfo p,
 .box_eventInfo li{
-    font-size:1.8rem;
-    line-height:3rem;
+    font-size:1.6rem;
+    line-height:2.6rem;
+}
+.box_eventInfo p{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.box_eventInfo ul,
+.box_eventInfo ol{
+    padding-left: 40px;
+    padding-right: 10px;
 }
 .box_eventInfo ul li{
     list-style: disc;
 }
 .box_eventInfo li span,
 .box_eventInfo h5{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+}
+.box_eventInfo img{
+    margin: 0 auto 15px auto;
 }
 .img-w90,
 .img-w60{
@@ -446,12 +478,40 @@ h2{
     min-height:200px
 }
 .box_preview p{
-    font-size: 2rem;
-    line-height: 3.5rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
 }
-.box_eventInfo .txt_short{
+.box_eventInfo span.txt_short{
     font-size: 1.6rem;
     text-align: left;
+}
+.box_eventInfo .txt_short2{
+    display: inline;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-left: 0;
+}
+.time_subpinkred{
+    padding: 0 10px;
+    margin: 0 15px 10px 0;
+}
+.title_pinkred{
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+hr.line_pinkred{
+    border:2px dashed #c62253;
+    width: 90%;
+    margin: 10px auto;
+}
+.info_subitem{
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight:700;
+    letter-spacing: 1px;
+}
+.info_subitem img{
+    margin-top: 15px;
 }
 }
 /*
