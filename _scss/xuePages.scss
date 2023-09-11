@@ -231,7 +231,7 @@
     width: 90%;
     min-height:500px;
     margin: 30px auto 0 auto;
-    padding: 100px 0;
+    padding: 0;
 }
 #box_gallery img{
     display: inline-block;
@@ -250,6 +250,9 @@
 }
 #box_gallery.photo_yeallow img{
     border-color: #f9da73;
+}
+#box_gallery.photo_pinkred img{
+    border-color: #d66783;
 }
 
 .note_red{
