@@ -131,6 +131,9 @@
     width: 100%;
     color: #343433;
 }
+.info_item-top{
+    padding-top: 100px;
+}
 .info_subitem{
     display: inline-block;
     width: 49%;
@@ -269,6 +272,21 @@
     background: red;
     color: #fff
 }
+.note_red2{
+    display: block;
+    position: absolute;
+    top:30px;
+    right: 50px;
+    padding: 8px 0;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    font-size:2.4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: red;
+    color: #fff
+}
 .signup_end{
     display: inline-block;
     float: right;
@@ -365,7 +383,8 @@ main.xpWfed{
 }
 .form_feedback,
 .form_AugYoga,
-.form_SepPicnic{
+.form_SepPicnic,
+.form_OctBasketball{
     display: block;
     width: 80%;
     padding-top: 50px;
@@ -382,4 +401,7 @@ main.xpWfed{
 .form_SepPicnic{
     height: 1800px;
     margin-bottom: 450px;
+}
+.form_OctBasketball{
+    height: 1080px;
 }

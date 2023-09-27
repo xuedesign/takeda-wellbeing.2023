@@ -161,6 +161,13 @@ h2{
 .box_preview p{
     padding-top: 0;
 }
+.note_red2{
+    top:80px;
+    right: 20px;
+}
+.info_item-top{
+    padding-top: 0;
+}
 }
 
 /*
@@ -207,7 +214,8 @@ h2{
 }
 .form_feedback,
 .form_AugYoga,
-.form_SepPicnic{
+.form_SepPicnic,
+.form_OctBasketball{
     padding-top: 30px
 }
 .form_feedback{
@@ -274,6 +282,14 @@ h2{
     display: block;
     width: 90%;
     margin: 0 auto;
+}
+.note_red2{
+    top:40px;
+    right: 10px;
+    width: 50%;
+    font-size:1.3rem;
+    font-weight: 700;
+    letter-spacing:0;
 }
 }
 
@@ -383,7 +399,8 @@ h2{
 }
 .form_feedback,
 .form_AugYoga,
-.form_SepPicnic{
+.form_SepPicnic,
+.form_OctBasketball{
     width: 100%;
     padding-top: 20px;
 }
@@ -397,6 +414,9 @@ h2{
 .form_SepPicnic{
     height: 1780px;
     margin-bottom: 0;
+}
+.form_OctBasketball{
+    height: 1100px;
 }
 #flatbox{
     bottom: 20px;
@@ -420,7 +440,7 @@ h2{
 .box_eventInfo{
     width: 95%;
     margin: 0 auto;
-    padding: 10px 0 20px;
+    padding: 10px 0 0;
 }
 .box_eventInfo h4{
     font-size: 1.8rem;
@@ -438,8 +458,9 @@ h2{
 }
 .box_eventInfo ul,
 .box_eventInfo ol{
+    margin-top: 0;
     padding-left: 40px;
-    padding-right: 10px;
+    padding-right: 0;
 }
 .box_eventInfo ul li{
     list-style: disc;

@@ -151,6 +151,11 @@ $nav-hover: #f50; */
   background-size: contain;
   background-position: bottom;
 }
+.bg_basketball{
+  background: url(../images/event10/bg_basketball.webp) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
 
 
 
@@ -339,6 +344,7 @@ a.mybtn:hover{
 .btn_yeallow{
   background: url(../images/btn_yeallow.svg) no-repeat;
   background-size: contain;
+  color: #3A4F5F;
 }
 .btn_blue{
   background: url(../images/btn_blue.svg) no-repeat;
