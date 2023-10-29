@@ -1,0 +1,33 @@
+doctype html
+html(lang="zh-Hant-TW")
+  head
+    include ../../_templates/matadata-page.pug
+    title 11月電影欣賞 | 武星級職場
+    link(rel="stylesheet" href="../../css/xueMain.css")
+  = '\n'
+
+  body
+    iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-TVPWDJTD', height='0', width='0', style='display:none;visibility:hidden')
+    = '\n'
+    #wrap.bg_pinkred
+      head
+        include ../../_templates/pageTop-page.pug
+      = '\n'
+      main.bg_movie
+        img.bg_foot(src="../../images/bg_foot.svg" alt="bar_down")
+        #container-page-sep.box_pinkred
+          h3.bar_title-s 11月電影欣賞
+          iframe.form_movie(src='https://docs.google.com/forms/d/e/1FAIpQLSeer21D7U1h5YqE5PvVOm1kOpdQ-fz7yc2q1QyacC8vIAss7w/viewform?embedded=true', frameborder='0', marginheight='0', marginwidth='0', scrolling="no") 載入中
+
+        #flatbox
+          #btn_group
+            a.mybtn.btn_pinkred(href="../../feedback" title="意見回饋") 意見回饋
+            a.mybtn.btn_pinkred(href="info" title="活動介紹") 活動介紹
+            a.mybtn.btn_pinkred(href="../../index" title="回首頁") 回首頁
+
+    = '\n'
+    script(src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js")
+    script(src="https://cdn.jsdelivr.net/npm/jquery-migrate/dist/jquery-migrate.min.js")
+    script(src="https://cdn.jsdelivr.net/npm/loadjs/dist/loadjs.umd.min.js")
+    script(src="../../scripts/script.js")
+    script(src='https://instant.page/5.2.0', type='module', integrity='sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z')

@@ -155,7 +155,7 @@ h2{
     margin: 0 0 50px 0;
     vertical-align: top;
 }
-.minHeight{ 
+.minHeight{
     min-height:300px
 }
 .box_preview p{
@@ -167,6 +167,12 @@ h2{
 }
 .info_item-top{
     padding-top: 0;
+}
+.form_movie{
+    height:1030px;
+}
+.info_item-top-130{
+    padding-top: 20px;
 }
 }
 
@@ -215,7 +221,8 @@ h2{
 .form_feedback,
 .form_AugYoga,
 .form_SepPicnic,
-.form_OctBasketball{
+.form_OctBasketball,
+.form_movie{
     padding-top: 30px
 }
 .form_feedback{
@@ -400,7 +407,8 @@ h2{
 .form_feedback,
 .form_AugYoga,
 .form_SepPicnic,
-.form_OctBasketball{
+.form_OctBasketball,
+.form_movie{
     width: 100%;
     padding-top: 20px;
 }
@@ -505,6 +513,11 @@ h2{
 .box_eventInfo span.txt_short{
     font-size: 1.6rem;
     text-align: left;
+}
+.box_eventInfo span.txt_short4{
+    font-size: 1.6rem;
+    text-align: left;
+    padding: 10px 0 0 10px;
 }
 .box_eventInfo .txt_short2{
     display: inline;

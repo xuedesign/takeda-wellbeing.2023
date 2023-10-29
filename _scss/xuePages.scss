@@ -134,6 +134,13 @@
 .info_item-top{
     padding-top: 100px;
 }
+.info_item-top-130{
+    padding-top: 130px;
+}
+.info_item p{
+    text-align: justify;
+    padding-bottom: 20px;
+}
 .info_subitem{
     display: inline-block;
     width: 49%;
@@ -198,10 +205,15 @@
     height: auto;
     margin: 30px auto 20px auto;
 }
-.box_eventInfo span.txt_short{
+.box_eventInfo span.txt_short,
+.box_eventInfo .txt_short3,
+.box_eventInfo span.txt_short4{
     font-weight: 400;
     font-size: 2rem;
     text-align: left;
+}
+.box_eventInfo .txt_short3{
+    margin-left: 20px;
 }
 .box_eventInfo .txt_short2{
     display: block;
@@ -384,7 +396,8 @@ main.xpWfed{
 .form_feedback,
 .form_AugYoga,
 .form_SepPicnic,
-.form_OctBasketball{
+.form_OctBasketball,
+.form_movie{
     display: block;
     width: 80%;
     padding-top: 50px;
@@ -404,4 +417,7 @@ main.xpWfed{
 }
 .form_OctBasketball{
     height: 1080px;
+}
+.form_movie{
+    height:980px;
 }

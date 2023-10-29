@@ -1,0 +1,89 @@
+doctype html
+html(lang="zh-Hant-TW")
+  head
+    include ../../_templates/matadata-page.pug
+    title 11月電影欣賞 | 武星級職場
+    link(rel="stylesheet" href="../../css/xueMain.css")
+  = '\n'
+
+  body
+    iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-TVPWDJTD', height='0', width='0', style='display:none;visibility:hidden')
+    = '\n'
+    #wrap.bg_pinkred
+      head
+        include ../../_templates/pageTop-page.pug
+      = '\n'
+      main.bg_movie
+        img.bg_foot(src="../../images/bg_foot.svg" alt="bar_down")
+        img.box_showpicc(src="../../images/event11/pic_sample.webp", alt="movie")
+        #container-page-sep.box_pinkred
+          h3.bar_title-s 11月電影欣賞
+          .note_red2 報名至11/xx(x)截止
+          //報名至11/17(五)截止
+          .box_eventInfo
+            .info_item
+              h4.title_pinkred 時間
+              p 2023.11.24 (五) 15:00-17:30
+              h4.title_pinkred 行程規劃
+              ol.schedule
+                li
+                  span.title_subpinkred 15:00
+                  |集合、報到
+                li
+                  span.title_subpinkred 15:15
+                  |電影開播 
+                  span.txt_short4 (開播時間視情況微調)
+                li
+                  span.title_subpinkred 17:30
+                  |賦歸
+            .info_item
+                h4.title_pinkred 地點
+                p 誠品生活鬆菸電影院
+                  br
+                  |(台北市信義區菸廠路80號B1)
+                img( src="../../images/event11/pic_subpoto.webp")
+          hr.line_pinkred
+          .box_eventInfo
+            .info_item-one
+              h4.title_pinkred 交通資訊
+              br
+              h5.title_subpinkred 大眾運輸
+              ul
+                li 板南線:市政府捷運站 / 1 號出口步行約 400 公尺。
+                li 板南線:國父紀念館捷運站 / 5 號出口步行約 500 公尺。
+            .info_item
+              h5.title_subpinkred 自行開車
+              p 附近停車場包括
+              ul
+                li 於光復南路上右轉菸廠路 → 即可看到誠品生活松菸店
+                li 停車場於光復南路上右轉菸廠路 → 台灣聯通誠品松菸 (菸廠路88號)
+                li 汽車平日每小時收費40元，機車單次收費20元，停車未滿半小時以半小時計費。
+            .info_item
+              a(href="../../images/event11/pic_map.webp", data-fancybox="gallery", data-caption="台北市信義運動中心 (台北市信義區松勤街100號)")
+                  img(src="../../images/event11/pic_map.webp")
+              p.txt_short3 ⚲點擊地圖放大瀏覽
+          hr.line_pinkred
+          .box_eventInfo
+            .info_item
+              h4.title_pinkred 觀賞影片
+              img.img-w60(src="../../images/event11/pic_poster.webp")
+            .info_item.info_item-top-130
+              p 劇情簡介：
+              p 這是台灣影史首部結合拉力賽、親情、友情、勵志的電影作品，由兩屆金鐘獎「最佳編劇」得主溫郁芳擔綱編劇，新銳導演張書瑋執導， 溫昇豪、陳澤耀、陳少卉領街主演。
+              p 透過菜烏老爸與陌生兒子的親情交流，結合失意車手在人生路上的跌跌撞撞，彼此試圖重獲救贖，為人生再戰一回。
+              p 全片勵志新穎，兼具勇氣、溫情、熱血與速度感，是近年台灣電影少見類型。非常值得你前來觀賞！
+              a(href="https://www.youtube.com/watch?v=UIB5InrNTSQ", data-fancybox="video-gallery", data-caption="【我和我的賽車老爸】台灣官方正式預告")
+                  h4.title_pinkred ▶️ 電影預告
+        #flatbox
+          #btn_group
+            a.mybtn.btn_pinkred(href="../../feedback" title="意見回饋") 意見回饋
+            //a.mybtn.btn_pinkred(href="photos" title="活動相片") 活動相片
+            a.mybtn.btn_pinkred(href="signup" title="我要報名") 我要報名
+            a.mybtn.btn_pinkred(href="../../index" title="回首頁") 回首頁
+
+    = '\n'
+    script(src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js")
+    script(src="https://cdn.jsdelivr.net/npm/jquery-migrate/dist/jquery-migrate.min.js")
+    script(src="https://cdn.jsdelivr.net/npm/loadjs/dist/loadjs.umd.min.js")
+    script(src="../../scripts/script.js")
+    script(src='https://instant.page/5.2.0', type='module', integrity='sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z')
