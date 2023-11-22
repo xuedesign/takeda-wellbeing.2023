@@ -161,6 +161,11 @@ $nav-hover: #f50; */
   background-size: contain;
   background-position: bottom;
 }
+.bg_boxing{
+  background: url(../images/event12/bg_boxing.webp) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
 
 
 
@@ -275,7 +280,13 @@ main{
   @extend %boder_color;
   border-image: linear-gradient(to bottom, #f9da72, transparent 70%);
   border-image-slice: 1;
-  background: linear-gradient(to bottom, #fffef7, rgba(241, 241, 200, .1) 70%);
+  background: linear-gradient(to bottom, #fffef7, transparent 30%);
+}
+.box_yeallow-dec{
+  @extend %boder_color;
+  border-image: linear-gradient(to bottom, #f9da72, transparent 70%);
+  border-image-slice: 1;
+  /* background: linear-gradient(to bottom, #fffef7, rgba(241, 241, 200, .1) 70%); */
 }
 .box_blue{
   @extend %boder_color;
