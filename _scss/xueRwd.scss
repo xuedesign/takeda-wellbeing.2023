@@ -467,7 +467,7 @@ h2{
 .box_eventInfo ul,
 .box_eventInfo ol{
     margin-top: 0;
-    padding-left: 40px;
+    padding-left: 35px;
     padding-right: 0;
 }
 .box_eventInfo ul li{
@@ -503,7 +503,7 @@ h2{
     width: 80%;
     font-size: 1.8rem;
 }
-.minHeight{ 
+.minHeight{
     min-height:200px
 }
 .box_preview p{
@@ -546,6 +546,9 @@ hr.line_pinkred{
 }
 .info_subitem img{
     margin-top: 15px;
+}
+.box_eventInfo ol.schedule{
+    padding-left: 0;
 }
 }
 /*
