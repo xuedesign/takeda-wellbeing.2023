@@ -241,21 +241,30 @@
     margin: 0 3% 50px 3%;
     vertical-align: top;
 }
-#box_gallery{
+#box_gallery,
+#box_gallery2{
     display: block;
     width: 90%;
     min-height:500px;
     margin: 30px auto 0 auto;
     padding: 0;
 }
-#box_gallery img{
+#box_gallery img,
+#box_gallery2 img{
     display: inline-block;
-    width: 43%;
-    height: auto;
-    margin: 0 3% 50px 3%;
     vertical-align: top;
     border: 5px solid;
     border-radius: 30px;
+}
+#box_gallery img{
+    width: 43%;
+    height: auto;
+    margin: 0 3% 50px 3%;
+}
+#box_gallery2 img{
+    width: 100%;
+    height: auto;
+    margin: 0 0 50px 0;
 }
 #box_gallery.photo_blue img{
     border-color: #37a4c4;
@@ -266,7 +275,8 @@
 #box_gallery.photo_yeallow img{
     border-color: #f9da73;
 }
-#box_gallery.photo_pinkred img{
+#box_gallery.photo_pinkred img,
+#box_gallery2.photo_pinkred img{
     border-color: #d66783;
 }
 #box_gallery h3{
