@@ -438,3 +438,25 @@ main.xpWfed{
 .form_movie{
     height:980px;
 }
+/*
+=====================================
+預約功能設定
+=====================================
+*/
+#powered_by_prefooter,
+#powered_by_footer,
+.bg-darkest,
+.text-secondary,
+.sticky-bottom,
+.text-center,
+.powered-by-tidycal-prefooter,
+.py-1{
+    display: none;
+}
+#boxbooking{
+    display: block;
+    width: 90%;
+    height: 720px;
+    overflow: hidden;
+    margin: 50px auto;
+}

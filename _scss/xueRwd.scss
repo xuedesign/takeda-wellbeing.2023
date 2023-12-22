@@ -75,7 +75,8 @@ h2{
     height: auto;
     margin: 0 0 20px 80px;
 }
-#container-page-sep{ 
+#container-page-sep,
+#container-page-jun{ 
     padding-bottom: 800px;}
 }
 .info_subitem{
@@ -101,7 +102,8 @@ h2{
 .minHeight{ 
     min-height:500px
 }
-#container-page-sep{ 
+#container-page-sep,
+#container-page-jun{ 
     padding-bottom: 700px;}
 .info_subitem{
     font-size: 2.3rem;
@@ -204,7 +206,8 @@ h2{
 #container-page{
     padding-bottom: 300px;
 }
-#container-page-sep{
+#container-page-sep,
+#container-page-jun{
     padding-bottom: 450px;
 }
 .bar_title,
@@ -370,7 +373,8 @@ h2{
 }
 #container,
 #container-page,
-#container-page-sep{
+#container-page-sep,
+#container-page-jun{
     width: 90%;
     margin: 60px auto;
     padding-top: 30px;
@@ -380,6 +384,10 @@ h2{
     padding-bottom: 200px;
 }
 #container-page-sep{
+    padding-bottom: 250px;
+}
+#container-page-jun{
+    padding-top: 50px;
     padding-bottom: 250px;
 }
 #list_events h3{
