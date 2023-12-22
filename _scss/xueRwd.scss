@@ -81,10 +81,16 @@ h2{
 .info_subitem{
     font-size: 2.3rem;
 }
+.info_paddingtop{
+    padding-top:50px
+}
 
 @media (max-width:1400px) {
     .info_subitem{
         font-size: 2.2rem;
+    }
+    .info_paddingtop{
+        padding-top:30px
     }
 }
 
@@ -339,6 +345,9 @@ h2{
     width: 80%;
     margin: 70px auto -40px auto;
 }
+.info_paddingtop{
+    padding-top:0
+}
 }
 
 /*
@@ -482,7 +491,7 @@ h2{
 }
 .img-w90,
 .img-w60{
-    width: 90%;
+    width: 80%;
 }
 .note_red{
     display: block;
